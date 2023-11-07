@@ -15,6 +15,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
+import { AddShoppingCart } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -39,7 +40,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Product() {
+export default function Product({ product }) {
+  if (!product) return <>No product</>;
+  console.log(product);
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -50,37 +53,46 @@ export default function Product() {
   return (
     <Card className={classes.root}>
       <CardHeader
-        avatar={
+        /* avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
             R
           </Avatar>
-        }
+        } */
         action={
-          <IconButton aria-label="settings">
+          /* <IconButton aria-label="settings">
             <MoreVertIcon />
-          </IconButton>
+          </IconButton> */
+          <Typography
+            className={classes.action}
+            variant="h5"
+            color="textSecondary"
+          >
+            {product?.price}
+          </Typography>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="Product"
+        subheader="In stock"
       />
       <CardMedia
         className={classes.media}
         image="https://picsum.photos/200"
-        title="Paella dish"
+        title="Product title"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          Content
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+        <IconButton aria-label="add to shopping cart">
+          <AddShoppingCart />
         </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
+        <IconButton aria-label="rating">
+          {Array(product?.rating)
+            .fill("0")
+            .map((el, i) => (
+              <p key={i}>&#11088;</p>
+            ))}
         </IconButton>
         <IconButton
           className={clsx(classes.expand, {

@@ -1,0 +1,94 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Product 1",
+        "inStock": true,
+        "price": 1099,
+        "image": "https://example.com/product1.jpg",
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 2,
+        "name": "Product 2",
+        "inStock": false,
+        "price": 1999,
+        "image": "https://example.com/product2.jpg",
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 3,
+        "name": "Product 3",
+        "inStock": true,
+        "price": 799,
+        "image": "https://example.com/product3.jpg",
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 4,
+        "name": "Product 4",
+        "inStock": true,
+        "price": 1499,
+        "image": "https://example.com/product4.jpg",
+        "rating": 5,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 5,
+        "name": "Product 5",
+        "inStock": false,
+        "price": 2499,
+        "image": "https://example.com/product5.jpg",
+        "rating": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 6,
+        "name": "Product 6",
+        "inStock": true,
+        "price": 1299,
+        "image": "https://example.com/product6.jpg",
+        "rating": 5,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 7,
+        "name": "Product 7",
+        "inStock": true,
+        "price": 899,
+        "image": "https://example.com/product7.jpg",
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 8,
+        "name": "Product 8",
+        "inStock": false,
+        "price": 2999,
+        "image": "https://example.com/product8.jpg",
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 9,
+        "name": "Product 9",
+        "inStock": true,
+        "price": 1699,
+        "image": "https://example.com/product9.jpg",
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      },
+      {
+        "id": 10,
+        "name": "Product 10",
+        "inStock": true,
+        "price": 1199,
+        "image": "https://example.com/product10.jpg",
+        "rating": 5,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien tincidunt augue, vel bibendum sapien sapien vel velit."
+      }
+    ]
+  }
